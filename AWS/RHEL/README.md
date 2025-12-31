@@ -1,5 +1,5 @@
 
-## 📝 RHL  (`velocityPilot/k8s/AWS/RHL/README.md`)
+## 📝 RHL  (`DevOps-Arsenal/k8s/AWS/RHL/README.md`)
 ---
 
 # ☸️ Kubernetes on AWS EC2 (Enterprise Linux 🐧)

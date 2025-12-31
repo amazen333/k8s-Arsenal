@@ -13,4 +13,4 @@ This folder contains automation scripts for setting up Kubernetes clusters insid
 .\k8s-WSL2-CLx-clones.ps1 -BaseDistroName "Ubuntu-Base" -ClonePrefix "CLx" -Count 3 -InstallRoot "D:\WSL\CLx" -DefaultUser "devops" -Role "Worker"
 
 # Run setup scripts inside WSL
-wsl -d CLx-Worker-01 bash ./ec2-ubuntu-master.sh
+wsl -d CLx-Worker-01 bash ./k8s-WSL2-CLx-master.sh

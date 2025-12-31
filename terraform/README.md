@@ -1,19 +1,17 @@
 📘 Top‑Level README.md (Index)
 markdown
-# VelocityPilot Kubernetes Cluster Automation
+# k8s-Arsenal Kubernetes Cluster Automation
 
 ## Overview
-VelocityPilot provides a **production‑ready automation toolkit** for deploying a Kubernetes cluster on AWS.  
+k8s-Arsenal provides a **production‑ready automation toolkit** for deploying a Kubernetes cluster on AWS.  
 It combines:
 - **Terraform** → Infrastructure provisioning (EC2 master + worker nodes, security groups, networking).
 - **Ansible** → Post‑provisioning configuration (cluster initialization, worker node join, CNI setup).
 
 This repo is designed for **repeatable, scalable, and professional deployments**.
 
----
-
 ## 📂 Repository Structure
-velocitypilot/
+k8s-Arsenal/
 ├── terraform/   # Infrastructure as Code (AWS EC2 cluster)
 │   ├── main.tf
 │   ├── variables.tf
